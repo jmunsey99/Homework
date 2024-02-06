@@ -8,8 +8,10 @@ Loops myCount = new Loops();
         countUp();
     System.out.println("Second challenge");
     countByThrees();
+    System.out.println();
     System.out.println("Third challenge");
     countDown();
+    System.out.println();
     System.out.println("Happy Loop Year!");
 
     }// end of loops method
@@ -24,13 +26,16 @@ Loops myCount = new Loops();
     }
     public void countByThrees () {
         for (int i = 3; i <= 15; i = i + 3) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
     }
 public void countDown (){
+
         for (int i = 10; i >= 1; i = i-1){
-            System.out.println(i);
+            if (i >=2){
+                System.out.print(i + ", " );
+            }else System.out.print(i);
         }
 
 }

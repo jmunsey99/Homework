@@ -16,7 +16,7 @@ public class Conditionals {
          System.out.println("Absolutely!" + "     Number: " + randomInt);
 
      }else if (randomInt < 0.4) {
-            System.out.println("Yes, but only a 90% chance" + "     Number: " + randomInt);
+            System.out.println("Yes, 9 out of 10 times" + "     Number: " + randomInt);
 
         }else if (randomInt < 0.6) {
          System.out.println("50/50" + "     Number: " + randomInt);
